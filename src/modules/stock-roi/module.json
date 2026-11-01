@@ -1,0 +1,13 @@
+{
+  "id": "stock-roi",
+  "name": "Stock ROI",
+  "icon": "📈",
+  "version": "1.1.0",
+  "description": "All Torn stocks ranked by profitability: dividend ROI, cost and ROI of your next benefit block, portfolio P/L.",
+  "defaultEnabled": true,
+  "apiComment": "StockROI",
+  "apiAccess": "Limited",
+  "order": 10,
+  "files": ["logic.js", "module.js"],
+  "docs": "docs/modules/stock-roi.md"
+}

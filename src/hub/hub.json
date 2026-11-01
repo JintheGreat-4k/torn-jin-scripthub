@@ -1,0 +1,24 @@
+{
+  "name": "Torn Jin Scripthub",
+  "namespace": "https://github.com/JintheGreat-4k/torn-jin-scripthub",
+  "version": "1.0.0",
+  "description": "One userscript, many Torn tools: switch individual modules (Stock ROI, Chain Alarm, ...) on and off from a single hub. Uses the official Torn API only.",
+  "author": "JintheGreat-4k",
+  "repo": "JintheGreat-4k/torn-jin-scripthub",
+  "branch": "main",
+  "output": "dist/torn-jin-scripthub.user.js",
+  "match": ["https://www.torn.com/*", "https://torn.com/*"],
+  "runAt": "document-idle",
+  "grants": [
+    "GM_getValue",
+    "GM_setValue",
+    "GM_deleteValue",
+    "GM_addValueChangeListener",
+    "GM_removeValueChangeListener",
+    "GM_xmlhttpRequest",
+    "GM_notification",
+    "GM_registerMenuCommand"
+  ],
+  "connect": ["api.torn.com"],
+  "core": ["src/hub/core.js"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "my-module",
+  "name": "My Module",
+  "icon": "✨",
+  "version": "1.0.0",
+  "description": "One sentence shown in the hub's module list.",
+  "defaultEnabled": false,
+  "apiComment": "MyModule",
+  "apiAccess": "Public",
+  "order": 100,
+  "files": ["module.js"],
+  "include": [],
+  "grants": [],
+  "connect": [],
+  "docs": "docs/modules/my-module.md"
+}
