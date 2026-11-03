@@ -1,0 +1,15 @@
+{
+  "id": "chain-alarm",
+  "name": "Chain Alarm",
+  "icon": "⛓",
+  "version": "1.1.0",
+  "description": "Rings and notifies when your faction's chain timer drops below a threshold. API only, works in background tabs, one tab monitors for all.",
+  "defaultEnabled": false,
+  "apiComment": "ChainAlarm",
+  "apiAccess": "Minimal",
+  "order": 20,
+  "files": ["logic.js", "module.js"],
+  "grants": ["GM_xmlhttpRequest", "GM_notification"],
+  "connect": ["*"],
+  "docs": "docs/modules/chain-alarm.md"
+}

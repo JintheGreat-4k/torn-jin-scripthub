@@ -1,0 +1,12 @@
+{
+  "name": "torn-jin-scripthub",
+  "private": true,
+  "description": "Torn City userscript hub – build tooling and tests. The hub version lives in src/hub/hub.json.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --check",
+    "test": "node --test"
+  }
+}
